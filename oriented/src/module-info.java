@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author ho
+ *
+ */
+module oriented {
+}

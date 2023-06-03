@@ -1,0 +1,12 @@
+package oriented;
+
+public class MotorBike {
+	//state
+	private int speed;
+	
+	
+	
+	void start() {
+		System.out.println("Bike started");
+	}
+}

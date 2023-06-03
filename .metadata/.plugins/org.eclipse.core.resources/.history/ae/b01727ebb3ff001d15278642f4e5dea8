@@ -1,0 +1,15 @@
+package oriented;
+
+public class MotorBike {
+	// state
+	private int speed;
+	
+	void setSpeed(int speed) {
+		System.out.println(speed);
+	}
+	
+	
+	void start() {
+		System.out.println("Bike started");
+	}
+}

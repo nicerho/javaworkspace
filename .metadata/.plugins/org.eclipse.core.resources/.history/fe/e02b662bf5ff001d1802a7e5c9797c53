@@ -1,0 +1,16 @@
+package books;
+
+public class BookRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Book artofComputerProgramming = new Book();
+		Book effectiveJava = new Book();
+		Book cleanCode = new Book();
+		cleanCode.setNoOfCopies(10);
+		System.out.println(cleanCode.getNoOfCopies());
+		cleanCode.increaseNoOfCopies(10);
+		System.out.println(cleanCode.getNoOfCopies());
+	}
+
+}

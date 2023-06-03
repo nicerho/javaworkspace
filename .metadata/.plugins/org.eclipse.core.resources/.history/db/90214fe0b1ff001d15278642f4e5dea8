@@ -1,0 +1,12 @@
+package books;
+
+public class BookRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Book ArtofComputerProgramming = new Book();
+		Book EffectiveJava = new Book();
+		Book CleanCode = new Book();
+	}
+
+}

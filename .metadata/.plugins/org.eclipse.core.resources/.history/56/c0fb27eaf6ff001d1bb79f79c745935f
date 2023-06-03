@@ -1,0 +1,13 @@
+package books;
+
+public class BookRunner {
+
+	public static void main(String[] args) {
+		Book cleanCode = new Book(1000);
+		cleanCode.setNoOfCopies(0);
+		System.out.println(cleanCode.getNoOfCopies());
+		cleanCode.increaseNoOfCopies(10);
+		System.out.println(cleanCode.getNoOfCopies());
+	}
+
+}

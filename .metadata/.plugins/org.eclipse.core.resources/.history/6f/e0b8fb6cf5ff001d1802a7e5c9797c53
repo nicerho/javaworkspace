@@ -1,0 +1,13 @@
+package books;
+
+public class BookRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Book cleanCode = new Book(10);
+		System.out.println(cleanCode.getnoOfCopies());
+		cleanCode.increaseNoOfCopies(10);
+		System.out.println(cleanCode.getnoOfCopies());
+	}
+
+}

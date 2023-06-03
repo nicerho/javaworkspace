@@ -1,0 +1,9 @@
+package books;
+
+public class Book {
+	private int noOfCopies;
+
+	void nob(int noOfCopies) {
+		this.noOfCopies = noOfCopies;
+	}
+}

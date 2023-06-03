@@ -1,0 +1,7 @@
+package oriented;
+
+public class MotorBike {
+	void start() {
+
+	}
+}

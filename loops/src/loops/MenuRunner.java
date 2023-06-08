@@ -1,9 +1,10 @@
-package ifstatementexamples;
+package loops;
 
 import java.util.Scanner;
 
 public class MenuRunner {
 	public static void main(String[] args) {
+		// do {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter Number1 :");
 		int number1 = scanner.nextInt();
@@ -21,8 +22,8 @@ public class MenuRunner {
 		System.out.println("Number1  " + number1);
 		System.out.println("Number2  " + number2);
 		System.out.println("Choice" + choice);
+	} // while(choice==5;)
 
-	}
 
 	private static void performOperationingUsingNestedIfElse(int number1, int number2, int choice) {
 		if (choice == 1) {
@@ -34,10 +35,8 @@ public class MenuRunner {
 			System.out.println("Result" + (number1 * number2));
 		} else if (choice == 4) {
 			System.out.println("Result" + (number1 / number2));
-		} else if (choice == 5) {
-			System.out.println("Good bye");
 		} else {
-			System.out.println("Invalid operation");
+			System.out.println("Invalid Operation");
 		}
 	}
 
@@ -54,9 +53,6 @@ public class MenuRunner {
 			break;
 		case 4:
 			System.out.println("Result" + (number1 / number2));
-			break;
-		case 5:
-			System.out.println("Good bye");
 			break;
 		default:
 			System.out.println("Invalid Operation");
